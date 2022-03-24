@@ -1,0 +1,100 @@
+* {
+  color: white;
+}
+
+/* Background CSS */
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -10000;
+}
+
+/* Quote CSS */
+.quote {
+  color: white;
+}
+.quote-content {
+  font-weight: bold;
+}
+.quote-author {
+  padding-top: 5px;
+  font-weight: bold;
+  font-size: 70%;
+}
+
+/* Clock and Date CSS */
+.clock {
+  font-size: 15vh;
+  line-height: 15vh;
+}
+.meridiem {
+  font-size: 8vh;
+}
+.date {
+  font-size: 3vh;
+}
+
+/* Greetings Css */
+.greetings {
+  text-align: center;
+  font-size: 5vh;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* footer css */
+.footer {
+  height: 45px;
+  margin: 5px;
+  padding-top: 3px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  z-index: 2;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* tooltip areas CSS */
+.left-tooltip-area {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  width: 50vw;
+  max-width: 500px;
+  top: 20px;
+  left: 5px;
+  bottom: 65px;
+}
+
+.right-tooltip-area {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  width: 50vw;
+  max-width: 500px;
+  top: 20px;
+  right: 5px;
+  bottom: 65px;
+}
+
+.center-tooltip-area {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  width: 50vw;
+  max-width: 500px;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 65px;
+}

@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab",
+  "description": "A homepage extention for chrome new tab.",
+  "version": "1.0.0",
+  "icons": {
+    "128": "./icon_images/Home-icon-128.png",
+    "48": "./icon_images/Home-icon-128.png",
+    "16": "./icon_images/Home-icon-128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "./icon_images/Home-icon-16.png",
+      "24": "./icon_images/Home-icon-24.png",
+      "32": "./icon_images/Home-icon-32.png"
+    },
+    "default_title": "New Tab"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["activeTab", "<all_urls>"]
+}
